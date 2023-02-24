@@ -1,0 +1,234 @@
+{
+	"QMainWindow":[
+		{
+			"tittle":"MIno",
+			"icon":":/icons/icons/grid.svg",
+			"transluscentBg": true,
+			"sizeGrip": "size_grip",
+			"navigation":[
+				{
+					"minimize":"minimizeWindow",
+					"close": "closeWindow",
+					"restore":[
+						{	
+							"buttonName": "restoreWindow"
+						}
+					],
+					"moveWindow": "header",
+					"tittleBar": "header"
+				}
+			]
+		}
+	],
+	"QPushButton": [{
+		"Style":[{
+			"Active": "background-color: rgb(20, 28, 39); border-left: 3px solid rgb(7 ,98 ,160);",
+			"NotActive": ""
+		}]
+	}],
+
+
+"QCustomSlideMenu": [
+
+{
+		"name": "left_menu_toggle",
+		"defaultSize": [{
+			"width": 0,
+			"height": 0
+		}],
+		"collapsedSize": [{
+			"width": 0,
+			"height": 0
+		}],
+		"expandedSize": [{
+			"width": 150,
+			"height": "auto"
+		}],
+		"toggleButton": [{
+			"buttonName": "left_menu_btn",
+			"icons": [{
+				"whenMenuIsCollapsed": "./images/toastlogo.png",
+				"whenMenuIsExpanded": ":/icons/icons/grid.svg"
+				
+			}]
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 50,
+			"animationEasingCurve": "Linear"
+		}]
+}
+
+
+
+	,
+{
+		"name": "bottom_menu",
+		"defaultSize": [{
+			"width": "auto",
+			"height": 0
+		}],
+		"collapsedSize": [{
+			"width": "auto",
+			"height": 0
+		}],
+		"expandedSize": [{
+			"width": "auto",
+			"height": 100
+		}],
+		"toggleButton": [{
+			"buttonName": "bottom_menu_button",
+			"icons": [{
+				"whenMenuIsCollapsed": ":/icons/icons/chevron-up.svg",
+				"whenMenuIsExpanded": ":/icons/icons/chevron-down.svg"
+			}]
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 50,
+			"animationEasingCurve": "Linear"
+		}]
+	}
+
+
+,{
+		"name": "right_menu",
+
+		"defaultSize": [{
+			"width": 0,
+			"height": 0
+		}],
+
+		"collapsedSize": [{
+			"width": 0,
+			"height": 0
+		}],
+
+		"expandedSize": [{
+			"width": 200,
+			"height": "auto"
+		}],
+
+		"toggleButton": [{"buttonName": "songs_icon"},{"buttonName": "Bax"}]
+		,
+		"menuTransitionAnimation": [{
+			"animationDuration": 230,
+			"animationEasingCurve": "Linear"
+		}]
+	}
+
+,{
+		"name": "notifications_widget",
+
+		"defaultSize": [{
+			"width": 250,
+			"height": "auto"
+		}],
+
+		"collapsedSize": [{
+			"width": 0,
+			"height": 0
+		}],
+
+		"expandedSize": [{
+			"width": 250,
+			"height": "auto"
+		}],
+
+		"toggleButton": [{
+			"buttonName": "right_menu_toggle_btn",
+			"icons": [{
+				"whenMenuIsCollapsed": "./images/icons8-cloche-94.png",
+				"whenMenuIsExpanded": ":/icons/icons/eye-off.svg"
+			}]
+
+		}],
+
+		"menuTransitionAnimation": [{
+			"animationDuration": 230,
+			"animationEasingCurve": "Linear"
+		}]
+	}
+
+,{
+		"name": "up",
+
+		"defaultSize": [{
+			"width": 0,
+			"height": 0
+		}],
+
+		"collapsedSize": [{
+			"width": 0,
+			"height": 0
+		}],
+
+		"expandedSize": [{
+			"width": "auto",
+			"height": "auto",
+			"border": "1px double cyan",
+			"boder-radius": "7px"
+		}],
+
+		"toggleButton": [{
+			"buttonName": "pushButton_g",
+			"icons": [{
+				"whenMenuIsCollapsed": ":/icons/icons/user.svg",
+				"whenMenuIsExpanded": ":/icons/icons/eye-off.svg"
+			}],
+			"style": [{
+				"whenMenuIsCollapsed": [
+					"border: 2px solid transparent;width: 18px;height: 18px;"
+				],
+				"whenMenuIsExpanded": [
+					"border: 2px solid cyan;width: 30px;height: 30px; "
+				]
+			}]
+
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 250,
+			"animationEasingCurve": "OutInBack"
+		}]
+	}
+,{
+		"name": "terminal",
+
+		"defaultSize": [{
+			"width": 0,
+			"height": 0
+		}],
+
+		"collapsedSize": [{
+			"width": 0,
+			"height": 0
+		}],
+
+		"expandedSize": [{
+			"width": "auto",
+			"height": "auto"
+		}],
+
+		"toggleButton": [{
+			"buttonName": "pushButton_m",
+			"icons": [{
+				"whenMenuIsCollapsed": ":/icons/icons/terminal.svg",
+				"whenMenuIsExpanded": ":/icons/icons/eye-off.svg"
+			}],
+			"style": [{
+				"whenMenuIsCollapsed": [
+					"border: 2px solid transparent;width: 18px;height: 18px;"
+				],
+				"whenMenuIsExpanded": [
+					"border: 2px solid cyan;width: 30px;height: 30px; "
+				]
+			}]
+
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 250,
+			"animationEasingCurve": "Linear"
+		}]
+	}
+]
+
+
+}
